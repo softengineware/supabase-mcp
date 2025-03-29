@@ -193,10 +193,10 @@ The `example_mcp_config.json` file shows how to configure an AI assistant to use
   "mcpServers": {
     "supabase": {
       "command": "docker",
-      "args": ["run", "--rm", "-i", "-e", "SUPABASE_URL", "-e", "SUPABASE_SERVICE_ROLE_KEY", "mcp/supabase"],
+      "args": ["run", "--rm", "-i", "-e", "SUPABASE_URL", "-e", "SUPABASE_SERVICE_KEY", "mcp/supabase"],
       "env": {
         "SUPABASE_URL": "YOUR-SUPABASE-URL",
-        "SUPABASE_SERVICE_ROLE_KEY": "YOUR-SUPABASE-SERVICE-ROLE-KEY"
+        "SUPABASE_SERVICE_KEY": "YOUR-SUPABASE-SERVICE-ROLE-KEY"
       }
     }
   }
@@ -226,20 +226,6 @@ The assistant will have access to the tools documented in the "Available Tools" 
 | `SUPABASE_URL` | URL of your Supabase project |
 | `SUPABASE_SERVICE_KEY` | Service role key for Supabase authentication |
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Commit your changes: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin feature-name`
-5. Submit a pull request
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- [Supabase](https://supabase.io/) - Open source Firebase alternative
-- [Model Context Protocol](https://github.com/microsoft/mcp) - Protocol for AI assistants to interact with tools
-- [FastMCP](https://github.com/microsoft/mcp/tree/main/python/fastmcp) - Python SDK for building MCP servers
