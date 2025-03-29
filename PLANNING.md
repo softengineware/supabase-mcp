@@ -49,7 +49,6 @@ supabase-mcp/
 - Use Pydantic for data validation
 
 ## Dependencies
-- fastmcp
-- supabase-py
+- mcp
+- supabase
 - python-dotenv
-- pydantic

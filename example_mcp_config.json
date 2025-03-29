@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+      "supabase": {
+        "command": "docker",
+        "args": ["run", "--rm", "-i", "-e", "SUPABASE_URL", "-e", "SUPABASE_SERVICE_KEY", "mcp/supabase"],
+        "env": {
+          "SUPABASE_URL": "YOUR-SUPABASE-URL",
+          "SUPABASE_SERVICE_KEY": "YOUR-SUPABASE-SERVICE-ROLE-KEY"
+        }
+    }
+  }
+}

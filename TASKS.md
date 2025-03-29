@@ -8,11 +8,11 @@
 - [x] Create tool for creating records in tables (2025-03-29)
 - [x] Create tool for updating records in tables (2025-03-29)
 - [x] Create tool for deleting records from tables (2025-03-29)
-- [ ] Update README.md with setup and usage instructions 
+- [X] Update README.md with setup and usage instructions (2025-03-29)
 
 ## Upcoming Tasks
-- [ ] Add unit tests for all tools
-- [ ] Implement error handling and logging
+- [X] Add unit tests for all tools (2025-03-29)
+- [X] Implement error handling and logging (2025-03-29)
 - [ ] Add support for pagination in read operations
 - [ ] Add support for filtering in read operations
 - [ ] Add support for sorting in read operations
