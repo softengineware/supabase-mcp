@@ -1,13 +1,5 @@
 # Supabase MCP Project - Reboot Instructions
 
-## Claude CLI Command to Restart Session
-
-Copy and paste this command to Claude CLI after reboot:
-
-```
-cd /Users/branchechols/supabase-mcp && claude
-```
-
 ## Project Status
 
 We've successfully set up a Supabase KNOWLEDGE database project with the following components:
